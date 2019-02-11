@@ -9,6 +9,15 @@
 
 # Dermatologist AI
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Getting Started](#getting-started)
+3. [Create a Model](#create-a-model)
+4. [Evaluation](#evaluation)
+5. [Getting your Results](#getting-your-results)
+6. [My own algorithm](#my_own_algorithm)
+
+
 ## Introduction
 
 In this mini project, you will design an algorithm that can visually diagnose [melanoma](http://www.skincancer.org/skin-cancer-information/melanoma), the deadliest form of skin cancer.  In particular, your algorithm will distinguish this malignant skin tumor from two types of benign lesions ([nevi](http://missinglink.ucsf.edu/lm/dermatologyglossary/nevus.html) and [seborrheic keratoses](https://www.aad.org/public/diseases/bumps-and-growths/seborrheic-keratoses)). 
@@ -122,3 +131,7 @@ python get_results.py sample_predictions.csv 0.4
 ```
 
 To test **your own** submission, change the code to instead include the path to **your** CSV file.
+
+## My own algorithm
+
+You can open the Jupyter Notebook dermatologist-ai.ipynb to see how I trained a Convolution Neural Network to classify the three skin diseases.
