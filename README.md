@@ -15,7 +15,7 @@
 3. [Create a Model](#create-a-model)
 4. [Evaluation](#evaluation)
 5. [Getting your Results](#getting-your-results)
-6. [My own algorithm](#my_own_algorithm)
+6. [My own algorithm](#my-own-algorithm)
 
 
 ## Introduction
@@ -134,4 +134,4 @@ To test **your own** submission, change the code to instead include the path to 
 
 ## My own algorithm
 
-You can open the Jupyter Notebook dermatologist-ai.ipynb to see how I trained a Convolution Neural Network to classify the three skin diseases.
+Open the Jupyter Notebook dermatologist-ai.ipynb to see how I trained a Convolution Neural Network to classify the three skin diseases.
