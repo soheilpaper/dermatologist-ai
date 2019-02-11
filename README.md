@@ -134,4 +134,4 @@ To test **your own** submission, change the code to instead include the path to 
 
 ## My own algorithm
 
-Open the Jupyter Notebook dermatologist-ai.ipynb to see how I trained a Convolution Neural Network to classify the three skin diseases.
+Open [my Jupyter Notebook dermatologist-ai.ipynb](dermatologist-ai.ipynb) to see how I trained a Convolution Neural Network to classify the three skin diseases.
