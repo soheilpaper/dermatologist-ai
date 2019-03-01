@@ -11,11 +11,11 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Getting Started](#getting-started)
-3. [Create a Model](#create-a-model)
-4. [Evaluation](#evaluation)
-5. [Getting your Results](#getting-your-results)
-6. [My own algorithm](#my-own-algorithm)
+2. [My own algorithm](#my-own-algorithm)
+3. [Getting Started](#getting-started)
+4. [Create a Model](#create-a-model)
+5. [Evaluation](#evaluation)
+6. [Getting your Results](#getting-your-results)
 
 
 ## Introduction
@@ -25,6 +25,11 @@ In this mini project, you will design an algorithm that can visually diagnose [m
 The data and objective are pulled from the [2017 ISIC Challenge on Skin Lesion Analysis Towards Melanoma Detection](https://challenge.kitware.com/#challenge/583f126bcad3a51cc66c8d9a).  As part of the challenge, participants were tasked to design an algorithm to diagnose skin lesion images as one of three different skin diseases (melanoma, nevus, or seborrheic keratosis).  In this project, you will create a model to generate your own predictions.
 
 ![Skin Disease Classes][image1]
+
+## My own algorithm
+
+Open [my Jupyter Notebook dermatologist-ai.ipynb](dermatologist-ai.ipynb) to see how I trained a Convolution Neural Network to classify the three skin diseases and reached a __ROC AUC score of 0.893__. That would have been a __TOP 5 score__ in the initial challenge!
+Particularly, I explain the many mistakes I did (and corrected) while designing the model.
 
 ## Getting Started
 
@@ -131,7 +136,3 @@ python get_results.py sample_predictions.csv 0.4
 ```
 
 To test **your own** submission, change the code to instead include the path to **your** CSV file.
-
-## My own algorithm
-
-Open [my Jupyter Notebook dermatologist-ai.ipynb](dermatologist-ai.ipynb) to see how I trained a Convolution Neural Network to classify the three skin diseases.
