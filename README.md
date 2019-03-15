@@ -6,6 +6,7 @@
 [image4]: ./images/cat_3.png "Category 3 Rankings"
 [image5]: ./images/sample_ROC_curve.png "Sample ROC curve"
 [image6]: ./images/sample_confusion_matrix.png "Sample confusion matrix"
+[image7]: ./images/final_ROC_curve.png "Final ROC curve"
 
 # Dermatologist AI
 
@@ -28,13 +29,15 @@ The data and objective are pulled from the [2017 ISIC Challenge on Skin Lesion A
 
 ## My own algorithm
 
-Open [my Jupyter Notebook dermatologist-ai.ipynb](dermatologist-ai.ipynb) to see how I trained a Convolution Neural Network to classify the three skin diseases and reached a __Mean ROC AUC score of 0.929__. It would have been a __TOP 1__ in the challenge (see scores below). It's very satisfying for what I wanted to achieve, especially since the __winner's score is 0.911__.  😃
+Open [my Jupyter Notebook dermatologist-ai.ipynb](dermatologist-ai.ipynb) to see how I trained a Convolution Neural Network to classify the three skin diseases and reached a __Mean ROC AUC score of 0.929__ (see ROC curves for melanoma and seborrheic keratosis below). It would have been a __TOP 1__ in the challenge (see scores in [Evaluation](#evaluation)). It's very satisfying for what I wanted to achieve, especially since the __winner's score is 0.911__.  😃
 
 But much more than this score, I learned a lot and sometimes the hard way, and took a lot of fun. 😅
 
 Particularly, I explain the many mistakes I did (and corrected) while designing the model.
 
 The Jupyter Notebook was run on [Google Colab](https://colab.research.google.com/) with GPU activated.
+
+![Final ROC curve][image7]
 
 ## Getting Started
 
