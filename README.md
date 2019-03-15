@@ -28,7 +28,7 @@ The data and objective are pulled from the [2017 ISIC Challenge on Skin Lesion A
 
 ## My own algorithm
 
-Open [my Jupyter Notebook dermatologist-ai.ipynb](dermatologist-ai.ipynb) to see how I trained a Convolution Neural Network to classify the three skin diseases and and reached a __Mean ROC AUC score of 0.908__. It would have been a __TOP 3__ in the initial challenge (see scores below). It's very satisfying for what I wanted to achieve, especially since the __winner's score is 0.911__.  😃
+Open [my Jupyter Notebook dermatologist-ai.ipynb](dermatologist-ai.ipynb) to see how I trained a Convolution Neural Network to classify the three skin diseases and reached a __Mean ROC AUC score of 0.921__. It would have been a __TOP 1__ in the challenge (see scores below). It's very satisfying for what I wanted to achieve, especially since the __winner's score is 0.911__.  😃
 
 But much more than this score, I learned a lot and sometimes the hard way, and took a lot of fun. 😅
 
