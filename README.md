@@ -12,7 +12,7 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [My own algorithm](#my-own-algorithm)
+2. <span style="background-color: #FFFF00">[My own algorithm](#my-own-algorithm)</span>
 3. [Getting Started](#getting-started)
 4. [Create a Model](#create-a-model)
 5. [Evaluation](#evaluation)
