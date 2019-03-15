@@ -31,13 +31,15 @@ The data and objective are pulled from the [2017 ISIC Challenge on Skin Lesion A
 
 Open [my Jupyter Notebook dermatologist-ai.ipynb](dermatologist-ai.ipynb) to see how I trained a Convolution Neural Network to classify the three skin diseases and reached a __Mean ROC AUC score of 0.929__ (see ROC curves for melanoma and seborrheic keratosis below). It would have been a __TOP 1__ in the challenge (see scores in [Evaluation](#evaluation)). It's very satisfying for what I wanted to achieve, especially since the __winner's score is 0.911__.  😃
 
+![Final ROC curve][image7]
+
 But much more than this score, I learned a lot and sometimes the hard way, and took a lot of fun. 😅
 
 Particularly, I explain the many mistakes I did (and corrected) while designing the model.
 
-The Jupyter Notebook was run on [Google Colab](https://colab.research.google.com/) with GPU activated.
+The Jupyter Notebook was run on [Google Colab](https://colab.research.google.com/) with GPU activated.  
 
-![Final ROC curve][image7]
+[<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/sebastienlange/dermatologist-ai/blob/master/dermatologist_ai.ipynb)
 
 ## Getting Started
 
