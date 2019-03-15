@@ -6,6 +6,7 @@
 [image4]: ./images/cat_3.png "Category 3 Rankings"
 [image5]: ./images/sample_ROC_curve.png "Sample ROC curve"
 [image6]: ./images/sample_confusion_matrix.png "Sample confusion matrix"
+[image7]: ./images/final_ROC_curve.png "Final ROC curve"
 
 # Dermatologist AI
 
@@ -35,6 +36,8 @@ But much more than this score, I learned a lot and sometimes the hard way, and t
 Particularly, I explain the many mistakes I did (and corrected) while designing the model.
 
 The Jupyter Notebook was run on [Google Colab](https://colab.research.google.com/) with GPU activated.
+
+![Final ROC curve][image7]
 
 ## Getting Started
 
