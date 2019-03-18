@@ -35,7 +35,7 @@ Open [my Jupyter Notebook dermatologist-ai.ipynb](dermatologist-ai.ipynb) to see
 
 But much more than this score, I learned a lot and sometimes the hard way, and took a lot of fun. 😅
 
-Particularly, I explain the many mistakes I did (and corrected) while designing the model.
+Particularly, I share how I turned my many mistakes while designing the model into positive learning experiences!
 
 The Jupyter Notebook was run on [Google Colab](https://colab.research.google.com/) with GPU activated.  
 
