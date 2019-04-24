@@ -46,15 +46,15 @@ Click the link below to open notebook in Google Colab:
 
 Then press Ctrl+F9 to Execute all cells in the notebook
 
-Be patient, it takes 12 minutes(*) to execute all the notebook cells: 
-Download (5') and extract (3') default images
-Download (1') and extract additional images
-Download results for all pretrained models (1')
-Build the best team (1')
-All other cells (1')
-(*) timing is of course approximate
+Be patient, it takes 12 minutes* to execute all the notebook cells: 
+- Download (5') and extract (3') default images
+- Download (1') and extract additional images
+- Download results for all pretrained models (1')
+- Build the best team (1')
+- All other cells (1')
+* timing is of course approximate
 
-Add +/- 13 minutes if you want to skip loading results and force testing, because the very first time it will need to resize all images.
+Add +/- 16 minutes if you want to skip loading results and force testing, because the very first time it will need to resize all images.
 
 Add many hours if you want to train your own model 😊
 
