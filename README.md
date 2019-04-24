@@ -9,7 +9,7 @@
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [My own algorithm and the resulting scores](#my-own-algorithm-and-the-resulting-scores)
-3. [Multi-model statistics](#multi-model-statistics)
+3. [Multi-model and multi-crop statistics](#multi-model-and-multi-crop-statistics)
 4. [Getting Started](#getting-started)
 
 
@@ -39,7 +39,7 @@ I also found very interesting to make some statisticts on multi-crop / multi-mod
 
 A picture is worth a thousand words! Here's the distributions of ROC AUC with respect to number of models:
 
-![Multi-model statistics][image8]
+![Multi-model and multi-crop statistics][image8]
 
 This is interesting to see that __multi-model gives me ≃3.25% return over investment__... whereas multi-crop "only" gives ≃0.6%.
 
