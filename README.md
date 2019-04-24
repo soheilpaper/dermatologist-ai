@@ -1,11 +1,6 @@
 [//]: # (Image References)
 
 [image1]: ./images/skin_disease_classes.png "Skin Disease Classes"
-[image2]: ./images/cat_1.jpeg "Category 1 Rankings"
-[image3]: ./images/cat_2.jpeg "Category 2 Rankings"
-[image4]: ./images/cat_3.png "Category 3 Rankings"
-[image5]: ./images/sample_ROC_curve.png "Sample ROC curve"
-[image6]: ./images/sample_confusion_matrix.png "Sample confusion matrix"
 [image7]: ./images/final_ROC_curve.png "Final ROC curve"
 [image8]: ./images/multi-model_multi-crop_stats.png "Multi-model statistics"
 
@@ -15,9 +10,6 @@
 1. [Introduction](#introduction)
 2. [My own algorithm](#my-own-algorithm)
 3. [Getting Started](#getting-started)
-4. [Create a Model](#create-a-model)
-5. [Evaluation](#evaluation)
-6. [Getting your Results](#getting-your-results)
 
 
 ## Introduction
@@ -54,17 +46,17 @@ This is interesting to see that __multi-model gives me ≃3.25% return over inve
 
 ## Getting Started
 
-Click the link below to open notebook in Google Colab:
+Click the link below to open and execute my notebook in Google Colab:
 [<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/sebastienlange/dermatologist-ai/blob/master/dermatologist_ai.ipynb)
 
 Then press Ctrl+F9 to Execute all cells in the notebook
 
-Be patient, it takes 12 minutes(\*) to execute all the notebook cells: 
-- Download (5') and extract (3') default images
-- Download (1') and extract additional images
-- Download results for all pretrained models (1')
-- Build the best team (1')
-- All other cells (1')
+Be patient, it takes +/- 12 minutes(\*) to execute all the notebook cells including : 
+- 5' to download and 3' to extract default images
+- 1' to download and extract additional images
+- 1' to download results for all pretrained models
+- 1' to build the best team
+- 1' to execute all other cells around (1')
 _(*) timing is of course approximate_
 
 Add +/- 16 minutes if you want to skip loading results and force testing, because the very first time it will need to resize all images.
