@@ -51,17 +51,16 @@ Click the link below to open and execute my notebook in Google Colab:
 
 Then press Ctrl+F9 to Execute all cells in the notebook
 
-Be patient, it takes +/- 12 minutes(\*) to execute all the notebook cells including : 
+Be patient, it takes +/- 12 minutes (\*) to execute all the notebook cells including : 
 - 5' to download and 3' to extract default images
 - 1' to download and extract additional images
 - 1' to download results for all pretrained models
 - 1' to build the best team
-- 1' to execute all other cells around (1')
+- 1' to execute all other cells around (1')  
 _(*) timing is of course approximate_
 
-Add +/- 16 minutes if you want to skip loading results and force testing, because the very first time it will need to resize all images.
-And 1 minute to test DenseNet, and up to 4 minutes for NasNetALarge...
+Optionally add +/- 16 minutes if you want to skip loading results and force testing, as the very first time it requires to resize all images. And 1 more minute to test DenseNet, and up to 4 minutes for NasNetALarge...
 
-Add many hours if you want to train your own model... 😊
+Optionally Add many hours if you want to train your own model... 😊
 
 If you want to know more details about the challenge itself, or create your own project from scratch, read the [original README.md](https://github.com/udacity/dermatologist-ai/blob/master/README.md).
