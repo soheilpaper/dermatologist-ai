@@ -28,10 +28,7 @@ Open [my Jupyter Notebook dermatologist-ai.ipynb](dermatologist-ai.ipynb) to see
 ![Final ROC curve][image7]
 
 But much more than this score, I learned a lot and sometimes the hard way, and took a lot of fun. 😅
-
 Particularly, I share how I turned my many mistakes while designing the model into positive learning experiences!
-
-The Jupyter Notebook was run on [Google Colab](https://colab.research.google.com/) with GPU activated.
 
 ## Multi-model statistics
 
@@ -47,6 +44,8 @@ This is interesting to see that __multi-model gives me ≃3.25% return over inve
 Click the link below to open and execute my notebook in Google Colab:  
 
 [<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/sebastienlange/dermatologist-ai/blob/master/dermatologist_ai.ipynb)
+  
+Ensure GPU is actived: Edit > Notebook settings or Runtime>Change runtime type and select GPU as Hardware accelerator
 
 Then press Ctrl+F9 to Execute all cells in the notebook
 
