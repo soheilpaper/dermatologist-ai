@@ -1,7 +1,7 @@
 [//]: # (Image References)
 
 [image1]: ./images/skin_disease_classes.png "Skin Disease Classes"
-[image7]: ./images/final_ROC_curve.png "Final ROC curve"
+[image7]: ./images/final_ROC_curves.png "Final ROC curve"
 [image8]: ./images/multi-model_multi-crop_stats.png "Multi-model statistics"
 
 # Dermatologist AI
