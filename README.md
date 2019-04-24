@@ -36,7 +36,6 @@ The Jupyter Notebook was run on [Google Colab](https://colab.research.google.com
 ## Multi-model statistics
 
 I also found very interesting to make some statisticts on multi-crop / multi-model scores.
-
 A picture is worth a thousand words! Here's the distributions of ROC AUC with respect to number of models:
 
 ![Multi-model and multi-crop statistics][image8]
