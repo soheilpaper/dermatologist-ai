@@ -8,8 +8,9 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [My own algorithm](#my-own-algorithm)
-3. [Getting Started](#getting-started)
+2. [My own algorithm and the resulting scores](#my-own-algorithm-and-the-resulting-scores)
+3. [Multi-model statistics](#multi-model-statistics)
+4. [Getting Started](#getting-started)
 
 
 ## Introduction
@@ -20,7 +21,7 @@ The data and objective are pulled from the [2017 ISIC Challenge on Skin Lesion A
 
 ![Skin Disease Classes][image1]
 
-## My own algorithm
+## My own algorithm and the resulting scores
 
 Open [my Jupyter Notebook dermatologist-ai.ipynb](dermatologist-ai.ipynb) to see how I trained a Convolution Neural Network to classify the three skin diseases and reached a __Mean ROC AUC score of 0.944__ (see ROC curves for melanoma and seborrheic keratosis below). It would have been a __TOP 1__ in the challenge (see scores in [Evaluation](#evaluation)). It's very satisfying for what I wanted to achieve, especially since the __winner's score is 0.911__.  😃
 
