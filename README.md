@@ -45,7 +45,8 @@ This is interesting to see that __multi-model gives me ≃3.25% return over inve
 
 ## Getting Started
 
-Click the link below to open and execute my notebook in Google Colab:
+Click the link below to open and execute my notebook in Google Colab:  
+
 [<img src="https://colab.research.google.com/assets/colab-badge.svg">](https://colab.research.google.com/github/sebastienlange/dermatologist-ai/blob/master/dermatologist_ai.ipynb)
 
 Then press Ctrl+F9 to Execute all cells in the notebook
