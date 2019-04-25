@@ -55,7 +55,7 @@ Be patient, it takes +/- 12 minutes (\*) to execute all the notebook cells inclu
 - 1' to download results for all pretrained models
 - 1' to build the best team
 - 1' to execute all other cells around (1')  
-_(*) timing is of course approximate, and estimated on NVIDIA Tesla T4 GPUs. However my models were run with the older NVIDIA Tesla K80 GPU_
+_(*) timing is of course approximate, and estimated on NVIDIA Tesla T4 GPUs, which is faster than the older NVIDIA Tesla K80 GPU my models were trained on_
 
 Optionally add +/- 16 minutes if you want to skip loading results and force testing, as the very first time it requires to resize all images. And 1 more minute to test DenseNet, and up to 4 minutes for NasNetALarge...
 
