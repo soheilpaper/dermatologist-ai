@@ -1,7 +1,7 @@
 [//]: # (Image References)
 
 [image1]: ./images/skin_disease_classes.png "Skin Disease Classes"
-[image2]: ./images/options.png "Options"
+[image2]: ./images/options.png "options"
 [image7]: ./images/final_ROC_curves.png "Final ROC curve"
 [image8]: ./images/multi-model_multi-crop_stats.png "Multi-model statistics"
 
@@ -49,17 +49,17 @@ Click the link below to open and execute my notebook in Google Colab:
 Ensure GPU is enabled: Edit > Notebook settings or Runtime>Change runtime type and select GPU as Hardware accelerator
 
 In the Notebook's Getting Started, change settings according to your needs:  
-![Options][image2]
+![options][image2]
 
 Then press Ctrl+F9 to Execute all cells in the notebook
 
-Be patient, it takes +/-3 minutes (if download_images=False) or +/- 12 minutes (if download_images=True) (\*) to execute all the notebook cells including : 
+Be patient, it takes +/-3\* minutes (if download_images=False) or +/- 12 minutes (if download_images=True) to execute all the notebook cells including : 
 - 5' to download and 3' to extract default images
 - 1' to download and extract additional images
 - 1' to download results for all pretrained models
 - 1' to build the best team
 - 1' to execute all other cells around (1')  
-_(*) timing is of course approximate, and estimated on NVIDIA Tesla T4 GPUs, which is faster than the older NVIDIA Tesla K80 GPU my models were trained on_
+_* timing is of course approximate, and estimated on NVIDIA Tesla T4 GPUs, which is faster than the older NVIDIA Tesla K80 GPU my models were trained on_
 
 Optionally add +/- 16 minutes if you want to skip loading results and force testing, as the very first time it requires to resize all images. And 1 more minute to test DenseNet, and up to 4 minutes for NasNetALarge...
 
