@@ -1,6 +1,7 @@
 [//]: # (Image References)
 
 [image1]: ./images/skin_disease_classes.png "Skin Disease Classes"
+[image2]: ./images/options.png "Options"
 [image7]: ./images/final_ROC_curves.png "Final ROC curve"
 [image8]: ./images/multi-model_multi-crop_stats.png "Multi-model statistics"
 
@@ -47,9 +48,12 @@ Click the link below to open and execute my notebook in Google Colab:
   
 Ensure GPU is enabled: Edit > Notebook settings or Runtime>Change runtime type and select GPU as Hardware accelerator
 
+In the Notebook's Getting Started, change settings according to your needs:  
+![Options][image2]
+
 Then press Ctrl+F9 to Execute all cells in the notebook
 
-Be patient, it takes +/- 12 minutes (\*) to execute all the notebook cells including : 
+Be patient, it takes +/-3 minutes (if download_images=False) or +/- 12 minutes (if download_images=True) (\*) to execute all the notebook cells including : 
 - 5' to download and 3' to extract default images
 - 1' to download and extract additional images
 - 1' to download results for all pretrained models
