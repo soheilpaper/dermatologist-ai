@@ -63,7 +63,7 @@ _* timing is of course approximate, and estimated on NVIDIA Tesla T4 GPUs, which
 
 Optionally add +/- 16 minutes if you want to skip loading results and force testing, as the very first time it requires to resize all images. And 1 more minute to test DenseNet, and up to 4 minutes for NasNetALarge...
 
-Optionally Add many hours if you want to train your own model... 😊
-Note that my models were trained with 
+Optionally Add many hours if you want to train your own model... 😊  
+Note that my models were trained with NVIDIA Tesla K80 GPU.
 
 If you want to know more details about the challenge itself, or create your own project from scratch, read the [original README.md](https://github.com/udacity/dermatologist-ai/blob/master/README.md).
